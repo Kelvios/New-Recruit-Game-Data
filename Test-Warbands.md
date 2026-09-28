@@ -112,6 +112,9 @@ forced on you.
 - **Expect:** blocked at the 2nd — only one standard-bearer per warband.
 
 ## Test 10 — Warband-wide Historical Rules (once per warband each)
+- First check: these five rules (Boasts, Raid from the Water, Stalking the
+  Prey, Trophy Hunters, War Dance) now sit under a **Historical Rules**
+  heading in the roster builder, not "Uncategorized".
 - Try adding "War Dance" a second time (or bumping its quantity to 2).
 - **Expect:** blocked.
 - Now add Boasts, Trophy Hunters, and Raid from the Water all in the same

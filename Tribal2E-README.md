@@ -5,7 +5,7 @@ PART OPTION, PART HIST):
 
 - **`Tribal2E.gst`** — the game system: Honour as the cost currency, a `Unit`
   profile type (Wounds / Skills / Notes), and the five unit categories
-  (Warlord, Heroes, Warriors, Marksmen, Shaman) with their force-level
+  (Warlord, Heroes, Warriors, Marksmen, Shaman) plus a Historical Rules category with their force-level
   min/max constraints.
 - **`Tribal2E-Core.cat`** — the catalogue: the five unit types, all 27 named
   Skills, and all 12 Historical Special Rules, wired up as shared entries
@@ -88,7 +88,7 @@ than silently wrong:
   (Armour, Assegai, Cavalry, Chariots, Counting Coup).
 - Warband-wide, once-per-game Historical Rules (Boasts, Raid from the
   Water, Stalking the Prey, Trophy Hunters, War Dance) sit as root-level
-  picks, each capped at 1 per roster. Rally Around the Flag is a free
+  picks under their own "Historical Rules" category, each capped at 1 per roster. Rally Around the Flag is a free
   pick under Heroes, capped at 1 per roster.
 
 ## Before you trust it for a real game

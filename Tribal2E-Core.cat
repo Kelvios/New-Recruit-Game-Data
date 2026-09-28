@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5eb-99bf-6530-ebf1" name="TRIBAL 2nd Edition - Core Warband" gameSystemId="sys-e140-121e-9b34-0be3" gameSystemRevision="1" revision="1" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5eb-99bf-6530-ebf1" name="TRIBAL 2nd Edition - Core Warband" gameSystemId="sys-e140-121e-9b34-0be3" gameSystemRevision="2" revision="2" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Short Weapon" hidden="false" id="5e2b-fe00-9542-4e05">
       <rules>
@@ -460,6 +460,9 @@
           <description>1 Honour Point, once per warband. After setup but before the first turn, each Boasting player secretly bids 1+ Honour Points. Winner loses their bid and draws 5 cards (used as Card Pool cards); loser loses their bid and draws 2; a tie means both lose their bid and draw 3 each. Not recommended together with Card Pools.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="c3dc-5e20-0cd9-c12d" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Honour" typeId="2583-462d-9a3d-8b99" value="1"/>
       </costs>
@@ -473,6 +476,9 @@
           <description>1 Honour Point, once per warband. After both players set up but before the first turn, the raiding player may move ALL of their Units up to two long card-edges.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="4ca9-d038-dd99-5f5a" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Honour" typeId="2583-462d-9a3d-8b99" value="1"/>
       </costs>
@@ -486,6 +492,9 @@
           <description>1 Honour Point, once per warband. Before the game, draw 4 cards from the shared deck: black = a hidden Unit, red = a decoy (redraw if all 4 are red). Deploy them face down; each black card deployed keeps one Unit off-table in reserve. Revealed voluntarily, or when an enemy Charges or moves within 1 long card-edge of the card. Concealed cards act last each turn (Walk only, never within 1 long card-edge of an enemy). Cannot be used together with the Concealment Skill, and never applies to Cavalry or Chariots.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="4454-089d-4151-fe0d" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Honour" typeId="2583-462d-9a3d-8b99" value="1"/>
       </costs>
@@ -499,6 +508,9 @@
           <description>1 Honour Point, once per warband. After destroying an enemy Unit in hand-to-hand combat, a Unit may spend its next entire activation Collecting Trophies to gain 1 Honour Point from the central supply. Lost if the Unit is Charged or otherwise loses its Activation Card first.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="eccc-7a14-c8a6-6a08" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Honour" typeId="2583-462d-9a3d-8b99" value="1"/>
       </costs>
@@ -512,6 +524,9 @@
           <description>1 Honour Point, once per warband. After setup but before the first turn, each War Dance player secretly bids 1+ Honour Points. Winner loses their bid and draws 5 cards; loser loses their bid and draws 2; a tie means both lose their bid and draw 3 each. Not recommended together with Card Pools.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="9073-649f-8717-e672" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Honour" typeId="2583-462d-9a3d-8b99" value="1"/>
       </costs>

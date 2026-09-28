@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="1" battleScribeVersion="2.03" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="2" battleScribeVersion="2.03" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." type="gameSystem">
   <costTypes>
     <costType id="2583-462d-9a3d-8b99" name="Honour" defaultValue="0"/>
   </costTypes>
@@ -18,7 +18,8 @@
     <categoryEntry id="a20b-aa4e-9045-9c20" name="Warriors" hidden="false"/>
     <categoryEntry id="ef8f-b97c-ea97-503e" name="Marksmen" hidden="false"/>
     <categoryEntry id="cd73-16c4-bac1-dd3f" name="Shaman (optional rule)" hidden="false"/>
-  </categoryEntries>
+    <categoryEntry id="98ce-fd5f-59ba-0e1a" name="Historical Rules" hidden="false"/>
+    </categoryEntries>
   <forceEntries>
     <forceEntry id="1128-7928-73f4-74fc" name="Warband" hidden="false">
       <categoryLinks>
@@ -49,6 +50,11 @@
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f389-7ca1-389d-185f"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0d5-3047-0616-9f3c"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7949-5fa3-abf7-d41a" name="Historical Rules" hidden="false" targetId="98ce-fd5f-59ba-0e1a" type="category">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="125e-4b20-9787-4c94"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
