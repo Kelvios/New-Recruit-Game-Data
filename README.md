@@ -19,7 +19,7 @@ The core rules only. The Primeval and Brutal supplements are not included.
 
 ## Version
 
-Revision 3. Revision 2 was tested in the New Recruit app. Revision 3's changes (roster caps on Counting Coup and Rally Around the Flag, the Heroes limit that grows with each Formation, and default weapons) are being retested and are not confirmed yet. Where a rule can't be expressed exactly in New Recruit, check it yourself against your rulebook.
+Revision 3. Tested in the New Recruit app: the warband limits (including the Heroes limit that grows with each Formation), the roster caps on Counting Coup and Rally Around the Flag, weapon defaults, and Skill and Historical Rule choices all behaved as expected. Where a rule can't be expressed exactly in New Recruit, check it yourself against your rulebook.
 
 ## Using them
 
