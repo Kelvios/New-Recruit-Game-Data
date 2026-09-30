@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="3" battleScribeVersion="2.03" authorName="Kelvios. Unofficial fan-made data for TRIBAL 2nd Edition (rules by Mana Press). Contains no rules text." authorUrl="https://github.com/Kelvios/Tribal-2nd-edition" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="3" battleScribeVersion="2.03" authorName="Kelvios. Unofficial fan-made data for TRIBAL 2nd Edition (rules by Mana Press)." authorUrl="https://github.com/Kelvios/Tribal-2nd-edition" type="gameSystem">
   <costTypes>
     <costType id="2583-462d-9a3d-8b99" name="Honour" defaultValue="0"/>
   </costTypes>

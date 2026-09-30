@@ -4,17 +4,17 @@ Unofficial [New Recruit](https://www.newrecruit.eu/) game system files for **TRI
 
 ## About these files
 
-These files are an aid for people who **already own the game**. They let you build and cost a warband in New Recruit.
+These files are an aid for people who **already own the game**. They let you build and cost a warband in New Recruit, and they carry short rule summaries so you can see what each option does while you build.
 
-They contain names, costs, limits and short numeric stats only. They contain **no rules text**: for what anything does, use your rulebook. They are not intended to infringe the copyright of the licence holder of the game or its rules. They are not affiliated with or endorsed by Mana Press. Game names and trademarks belong to their owners.
+They are not a substitute for the rulebook, and they are not intended to infringe the copyright of the licence holder of the game or its rules. They are not affiliated with or endorsed by Mana Press. Game names and trademarks belong to their owners.
 
 If you don't own the game, please buy it. These files won't teach you how to play.
 
 ## What is in this repository
 
 - `Tribal2E.gst`: the game system (Honour as the cost, the five unit categories and the warband limits)
-- `Tribal2E-Core.cat`: the core catalogue (unit types, Skills and Historical Special Rules, by name and cost)
-- `archive/`: earlier working files, kept for history only. Please don't load them.
+- `Tribal2E-Core.cat`: the core catalogue (unit types, Skills and Historical Special Rules, with costs and short rule summaries)
+- `archive/`: earlier working files and test notes, kept for history only. Please don't load them.
 
 The core rules only. The Primeval and Brutal supplements are not included.
 
