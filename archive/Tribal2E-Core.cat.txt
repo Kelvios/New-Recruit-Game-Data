@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5eb-99bf-6530-ebf1" name="TRIBAL 2nd Edition - Core Warband" gameSystemId="sys-e140-121e-9b34-0be3" gameSystemRevision="3" revision="3" authorName="Kelvios. Unofficial fan-made data for TRIBAL 2nd Edition (rules by Mana Press). Contains no rules text." battleScribeVersion="2.03" authorUrl="https://github.com/Kelvios/Drill-Sergeant" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5eb-99bf-6530-ebf1" name="TRIBAL 2nd Edition - Core Warband" gameSystemId="sys-e140-121e-9b34-0be3" gameSystemRevision="2" revision="2" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Short Weapon" hidden="false" id="5e2b-fe00-9542-4e05">
       <rules>
         <rule id="8e70-72c2-bd9a-a2e6" name="Short Weapon" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Sword, axe, knife, club or similar. Gives the Preferred Weapon Bonus on Club Strike cards.</description>
         </rule>
       </rules>
       <costs>
@@ -14,7 +14,7 @@
     <selectionEntry type="upgrade" import="true" name="Long Weapon" hidden="false" id="ec58-e347-1d4d-3243">
       <rules>
         <rule id="010b-1443-fd10-a9c9" name="Long Weapon" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Spear, long-axe, pike, polearm or similar. Gives the Preferred Weapon Bonus on Spade Strike cards.</description>
         </rule>
       </rules>
       <costs>
@@ -27,7 +27,7 @@
       </constraints>
       <rules>
         <rule id="fa9f-0f20-2684-2a08" name="Adept" hidden="false">
-          <description>See the rulebook.</description>
+          <description>After long training with their weapon of choice, this Unit has a Preferred Weapon Bonus of +2 instead of the normal +1. Cannot be combined with Champion or Duellist.</description>
         </rule>
       </rules>
       <costs>
@@ -40,7 +40,7 @@
       </constraints>
       <rules>
         <rule id="d760-7fb3-b9ee-d81a" name="Agile" hidden="false">
-          <description>See the rulebook.</description>
+          <description>The Unit always begins a combat round with Advantage, even if Charged. If both Units engaged in combat have this Skill, the Unit that made the Charge starts with Advantage as normal.</description>
         </rule>
       </rules>
       <costs>
@@ -53,7 +53,7 @@
       </constraints>
       <rules>
         <rule id="f838-af4c-9124-cb04" name="Cunning" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit adds +1 to its card value on any red (Hearts or Diamonds) Feint card played during an Exchange.</description>
         </rule>
       </rules>
       <costs>
@@ -66,7 +66,7 @@
       </constraints>
       <rules>
         <rule id="2bac-40a3-6c44-a1b0" name="Deadly Shot" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit adds +2 to its card value when making ranged attacks. Normally only useful for Marksmen, or Characters with the Long Shot Skill.</description>
         </rule>
       </rules>
       <costs>
@@ -79,7 +79,7 @@
       </constraints>
       <rules>
         <rule id="a503-1581-fa2b-c825" name="Duellist" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. Gains the Preferred Weapon Bonus from both Spade and Club Strike cards. Cannot be combined with Adept or Champion.</description>
         </rule>
       </rules>
       <costs>
@@ -92,7 +92,7 @@
       </constraints>
       <rules>
         <rule id="5a23-f558-2efb-71cd" name="Elite Marksmen" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Marksmen only. This Unit is considered armed with either short or long weapons, and fights in combat as if it were Warriors.</description>
         </rule>
       </rules>
       <costs>
@@ -105,7 +105,7 @@
       </constraints>
       <rules>
         <rule id="2f86-e3f7-fa34-edbd" name="Fearsome" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit causes +1 hit with Spade or Club Strike cards when it wins an Exchange against a Formation.</description>
         </rule>
       </rules>
       <costs>
@@ -118,7 +118,7 @@
       </constraints>
       <rules>
         <rule id="13a7-9956-2ce7-7983" name="Hard Target" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Marksmen firing at this Unit suffer -2 to their attack card value.</description>
         </rule>
       </rules>
       <costs>
@@ -131,7 +131,7 @@
       </constraints>
       <rules>
         <rule id="f744-2335-5223-eff4" name="Long Shot" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. This Character may use its Activation Card to make a ranged attack, resolved as a ranged attack from a Unit of Marksmen. Unlike Marksmen, if the target Unit is destroyed this way the player DOES receive Blood Payment.</description>
         </rule>
       </rules>
       <costs>
@@ -144,7 +144,7 @@
       </constraints>
       <rules>
         <rule id="3734-dfbe-d338-03a1" name="Ranger" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit is not slowed to a Walk when moving through Tough Going, and may Walk (1 short card-edge) across Impassable terrain if it can clear it in a single activation. Cannot be used by Cavalry.</description>
         </rule>
       </rules>
       <costs>
@@ -157,7 +157,7 @@
       </constraints>
       <rules>
         <rule id="3fa9-ad18-8402-8544" name="Savage" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit causes +1 hit with Spade or Club Strike cards when it wins an Exchange against a Character.</description>
         </rule>
       </rules>
       <costs>
@@ -170,7 +170,7 @@
       </constraints>
       <rules>
         <rule id="a2bd-f49e-6045-1e5b" name="Survival Instinct" hidden="false">
-          <description>See the rulebook.</description>
+          <description>After winning an Exchange, this Unit may break off from combat instead of causing damage: it discards its remaining combat-hand cards and an equal number of the enemy's. The Unit still counts as having lost the combat round (it retreats and the enemy gains the reward).</description>
         </rule>
       </rules>
       <costs>
@@ -183,7 +183,7 @@
       </constraints>
       <rules>
         <rule id="0a30-54ef-afe1-68ff" name="Tactician" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Warlord only. Immediately after the setup phase, the player may reposition 1 enemy Hero or Formation anywhere within the opponent's setup zone.</description>
         </rule>
       </rules>
       <costs>
@@ -196,7 +196,7 @@
       </constraints>
       <rules>
         <rule id="0899-858a-bd1a-e98c" name="Throwing Weapons" hidden="false">
-          <description>See the rulebook.</description>
+          <description>When this Unit Charges into close combat, flip a card: a black (Spade or Club) card causes 1 hit on the target before the Charge is resolved. Not increased by Strong.</description>
         </rule>
       </rules>
       <costs>
@@ -209,7 +209,7 @@
       </constraints>
       <rules>
         <rule id="fe20-0cea-5ade-f53f" name="Tough" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. This Character begins the game with +1 Wound. This extra Wound does not increase its combat hand size.</description>
         </rule>
       </rules>
       <costs>
@@ -222,7 +222,7 @@
       </constraints>
       <rules>
         <rule id="e74d-9813-97f1-eb56" name="Curse" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Shaman only. After moving, the Shaman may target an enemy Unit within a long card-edge and flip a card: a black card removes that Unit's Activation Card for the turn. No effect on a Unit that has already activated this turn.</description>
         </rule>
       </rules>
       <costs>
@@ -235,7 +235,7 @@
       </constraints>
       <rules>
         <rule id="b843-861a-9ffc-a34f" name="Divination" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Shaman only. Once per game, look at the top 6 cards of either or both players' draw decks (in any combination) and return them in the same order.</description>
         </rule>
       </rules>
       <costs>
@@ -248,7 +248,7 @@
       </constraints>
       <rules>
         <rule id="290a-c645-7ae3-d02c" name="Healing" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Shaman only. After moving, the Shaman may target a friendly Unit within a short card-edge and flip a card: a black card restores 1 Wound (or replaces 1 casualty figure in a Formation), never above the Unit's starting state.</description>
         </rule>
       </rules>
       <costs>
@@ -261,7 +261,7 @@
       </constraints>
       <rules>
         <rule id="d0aa-0f85-fef0-cce8" name="Rat Cunning" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Shaman only. Each turn, before initiative is determined, draw 2 cards from the shared deck, keep one concealed and declare whether to keep it or offer it to the opponent. Whoever ends up with the card must use it for turn initiative AND as one of their Activation Cards this turn.</description>
         </rule>
       </rules>
       <costs>
@@ -274,7 +274,7 @@
       </constraints>
       <rules>
         <rule id="1979-c292-c1c8-767b" name="Respected" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Warlord only. Card Pools optional rule only. At the start of the game, this Warlord's player draws 1 additional Card Pool card (6 total). Not lost if the Warlord is slain. Cannot be combined with Revered.</description>
         </rule>
       </rules>
       <costs>
@@ -287,7 +287,7 @@
       </constraints>
       <rules>
         <rule id="f172-0063-2a62-b4f5" name="Berserker" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. This Character always draws its combat hand as if completely unwounded. It suffers -2 to the value of any red (Hearts or Diamonds) Feint card it plays.</description>
         </rule>
       </rules>
       <costs>
@@ -300,7 +300,7 @@
       </constraints>
       <rules>
         <rule id="ecff-628f-c436-55dd" name="Champion" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. Preferred Weapon Bonus of +2 (instead of +1), plus a further +1 Preferred Weapon Bonus with the other Strike suit. Cannot be combined with Adept or Duellist.</description>
         </rule>
       </rules>
       <costs>
@@ -313,7 +313,7 @@
       </constraints>
       <rules>
         <rule id="1690-6794-6e1b-7321" name="Concealment" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Warlord only. During deployment, this player's Units are represented by red (Hearts/Diamonds) cards placed face down: number cards for Formations, face cards for Characters, plus an equal number of black decoy cards. All are revealed and Units placed before the first turn.</description>
         </rule>
       </rules>
       <costs>
@@ -326,7 +326,7 @@
       </constraints>
       <rules>
         <rule id="926e-b7e8-52a8-00d2" name="Seasoned" hidden="false">
-          <description>See the rulebook.</description>
+          <description>This Unit may discard and redraw 2 cards from its combat hand before the first Exchange of a combat.</description>
         </rule>
       </rules>
       <costs>
@@ -339,7 +339,7 @@
       </constraints>
       <rules>
         <rule id="89c1-b77a-6f33-56a3" name="Strong" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Characters only. This Character causes +1 hit when it wins a hand-to-hand Exchange with a Spade or Club Strike card.</description>
         </rule>
       </rules>
       <costs>
@@ -352,7 +352,7 @@
       </constraints>
       <rules>
         <rule id="d0ff-0c5a-fcd7-35c0" name="Evil Eye" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Shaman only. At the start of the Shaman's activation, mark one enemy Unit in line of sight. Once that turn, the Shaman's player may force that Unit to discard a just-played attack card and replace it with a card drawn at random.</description>
         </rule>
       </rules>
       <costs>
@@ -365,7 +365,7 @@
       </constraints>
       <rules>
         <rule id="701a-f5b4-35d8-2bc7" name="Revered" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Warlord only. Card Pools optional rule only. At the start of the game, this Warlord's player draws 2 additional Card Pool cards (7 total). Not lost if the Warlord is slain. Cannot be combined with Respected.</description>
         </rule>
       </rules>
       <costs>
@@ -378,7 +378,7 @@
       </constraints>
       <rules>
         <rule id="932c-348f-35e7-f4a6" name="Light Armour" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Equipment, 0.5 Honour Point per Unit (i.e. 1 Honour Point equips any 2 Units). When a Unit wearing armour suffers a hit, draw a card: 11+ cancels that hit (only one hit is ever cancelled this way, even from Overpower or multi-hit attacks). The Exchange still counts as lost for determining who won the combat round.</description>
         </rule>
       </rules>
       <costs>
@@ -391,7 +391,7 @@
       </constraints>
       <rules>
         <rule id="bbc7-ebf8-387b-fcb0" name="Heavy Armour" hidden="false">
-          <description>See the rulebook.</description>
+          <description>Equipment, Characters only, 1 Honour Point per Unit. When this Character suffers a hit, draw a card: 8+ cancels that hit (only one hit is ever cancelled this way). The wearer is Slowed: when Sprinting, the second portion of the move is only a Walk (1 short card-edge).</description>
         </rule>
       </rules>
       <costs>
@@ -404,7 +404,7 @@
       </constraints>
       <rules>
         <rule id="f88c-d2fb-52a5-b48a" name="Assegai (the Short Stabbing Spear)" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point per Unit. At the start of a combat round, after hands are dealt but before the first Exchange, the owning player declares whether this Unit is armed with short or long weapons for the round, and cannot change weapon type again until the next round.</description>
         </rule>
       </rules>
       <costs>
@@ -417,7 +417,7 @@
       </constraints>
       <rules>
         <rule id="9033-7ba2-33a9-f3ac" name="Cavalry" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point per Unit. The Unit is mounted: Walk 2 short card-edges, March 2 long card-edges, Sprint 4 long card-edges; may turn only once during a move. In Tough Going all distances are reduced from long to short card-edges and no Sprint is possible; Buildings are Impassable. May dismount permanently at the start of an activation.</description>
         </rule>
       </rules>
       <costs>
@@ -430,7 +430,7 @@
       </constraints>
       <rules>
         <rule id="52a7-e417-4f71-9506" name="Chariots" hidden="false">
-          <description>See the rulebook.</description>
+          <description>2 Honour Points, Warlord and Heroes only. Walk 2 short card-edges, March 2 long card-edges, Sprint 4 long card-edges; may turn only once, at the very start of the move. Never moves through Tough Going or Buildings (a forced move there dismounts the Unit permanently). Shock and Awe: if the Chariot charged after a March or Sprint move, it gets 1 extra combat card for that combat round.</description>
         </rule>
       </rules>
       <costs>
@@ -440,11 +440,11 @@
     <selectionEntry type="upgrade" import="true" name="Counting Coup (Historical Rule)" hidden="false" id="dd62-0160-ebe5-2523">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85a9-a670-11ee-df0c"/>
-        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b17b-1439-8b97-f4f3" includeChildSelections="true"/>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b17b-1439-8b97-f4f3"/>
       </constraints>
       <rules>
         <rule id="7259-7909-8abf-41f4" name="Counting Coup" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point per Unit, Warriors or Heroes only, maximum 2 Units in the warband. Winning Exchanges with black (Spade/Club) Strike cards count as wins but cause no hits. Winning a combat round also takes 1 Honour Point from the enemy's pool, in addition to the normal reward from the central supply.</description>
         </rule>
       </rules>
       <costs>
@@ -457,7 +457,7 @@
       </constraints>
       <rules>
         <rule id="1b75-acc8-3cc8-356b" name="Boasts – the Power of Words" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point, once per warband. After setup but before the first turn, each Boasting player secretly bids 1+ Honour Points. Winner loses their bid and draws 5 cards (used as Card Pool cards); loser loses their bid and draws 2; a tie means both lose their bid and draw 3 each. Not recommended together with Card Pools.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -473,7 +473,7 @@
       </constraints>
       <rules>
         <rule id="6ea5-ecdc-7f33-b009" name="Raid from the Water" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point, once per warband. After both players set up but before the first turn, the raiding player may move ALL of their Units up to two long card-edges.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -489,7 +489,7 @@
       </constraints>
       <rules>
         <rule id="ea8c-f31f-631b-d174" name="Stalking the Prey" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point, once per warband. Before the game, draw 4 cards from the shared deck: black = a hidden Unit, red = a decoy (redraw if all 4 are red). Deploy them face down; each black card deployed keeps one Unit off-table in reserve. Revealed voluntarily, or when an enemy Charges or moves within 1 long card-edge of the card. Concealed cards act last each turn (Walk only, never within 1 long card-edge of an enemy). Cannot be used together with the Concealment Skill, and never applies to Cavalry or Chariots.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -505,7 +505,7 @@
       </constraints>
       <rules>
         <rule id="621d-4995-832e-8469" name="Trophy Hunters" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point, once per warband. After destroying an enemy Unit in hand-to-hand combat, a Unit may spend its next entire activation Collecting Trophies to gain 1 Honour Point from the central supply. Lost if the Unit is Charged or otherwise loses its Activation Card first.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -521,7 +521,7 @@
       </constraints>
       <rules>
         <rule id="473d-f995-36d7-dafc" name="War Dance" hidden="false">
-          <description>See the rulebook.</description>
+          <description>1 Honour Point, once per warband. After setup but before the first turn, each War Dance player secretly bids 1+ Honour Points. Winner loses their bid and draws 5 cards; loser loses their bid and draws 2; a tie means both lose their bid and draw 3 each. Not recommended together with Card Pools.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -533,11 +533,11 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rally Around the Flag (Historical Rule, 1 Hero only)" hidden="false" id="8523-9815-59d5-3fd8">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1b6b-0e6d-5552-6b08" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1b6b-0e6d-5552-6b08"/>
       </constraints>
       <rules>
         <rule id="02a2-07c5-6c5e-05cd" name="Rally Around the Flag" hidden="false">
-          <description>See the rulebook.</description>
+          <description>0 Honour Points, 1 Hero only. Until this standard-bearer is destroyed, any friendly Unit with a figure within 2 long card-edges of the flag (including the standard-bearer) never loses a combat round: instead their opponent must retreat as if losing, without gaining the Honour Point reward. If the standard-bearer falls in hand-to-hand combat the flag is captured (attach it to the winning Unit); it can be recaptured by destroying that Unit. If the flag ends the game in enemy hands, its owner loses 5 Honour Points.</description>
         </rule>
       </rules>
       <costs>
@@ -550,7 +550,7 @@
           <characteristics>
             <characteristic name="Wounds" typeId="aea1-39b1-ec9b-475a">6</characteristic>
             <characteristic name="Skills" typeId="1200-2470-7a16-e426">0-3</characteristic>
-            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9"></characteristic>
+            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9">Always fights and moves alone; never joins Heroes or Formations. Combat hand = 1 card per remaining Wound. Free bonus: 1 free Elite Skill for any 1 Unit in the warband (including itself), OR 1 free Veteran Skill for each of 2 Units -- apply this as a discount when you spend Honour on Skills.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -558,7 +558,7 @@
         <categoryLink id="4cc5-4759-e691-7659" name="Warlord" hidden="false" targetId="21fb-7998-9dc4-5fd0" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fa87-77fa-23fb-7ca2" name="Weapon (choose 1)" hidden="false" defaultSelectionEntryId="b856-3490-a1b8-6f5f">
+        <selectionEntryGroup id="fa87-77fa-23fb-7ca2" name="Weapon (choose 1)" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db91-cf1d-6a40-acea"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccbc-3e2a-1f38-568a"/>
@@ -641,7 +641,7 @@
           <characteristics>
             <characteristic name="Wounds" typeId="aea1-39b1-ec9b-475a">5</characteristic>
             <characteristic name="Skills" typeId="1200-2470-7a16-e426">0-2</characteristic>
-            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9"></characteristic>
+            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9">Max 1 Hero may be included per Formation of 5 Warriors or Marksmen in the warband -- NOT automatically enforced by this tool; check it yourself when building your list. Always fights and moves alone. Combat hand = 1 card per remaining Wound. Free bonus per Hero: 1 free Veteran Skill for any 1 Unit (or spend 1 more Honour to upgrade that free Skill to Elite) -- apply as a discount.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -649,7 +649,7 @@
         <categoryLink id="b455-e1f2-07cd-d50e" name="Heroes" hidden="false" targetId="cdf2-4f60-5c31-a783" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5e73-e951-bdc8-30fc" name="Weapon (choose 1)" hidden="false" defaultSelectionEntryId="d98c-10ec-2e4b-cb9b">
+        <selectionEntryGroup id="5e73-e951-bdc8-30fc" name="Weapon (choose 1)" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b197-a46c-b500-9c53"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e257-9cf7-bd69-d4a1"/>
@@ -723,7 +723,7 @@
           <characteristics>
             <characteristic name="Wounds" typeId="aea1-39b1-ec9b-475a">1</characteristic>
             <characteristic name="Skills" typeId="1200-2470-7a16-e426">0-2</characteristic>
-            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9"></characteristic>
+            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9">Formation of 5 models, 1 Wound each, Skills apply to the whole Formation. Combat hand = 1 card per surviving model (1-5). All models in the Formation are armed with the same weapon type (a rule of thumb allows 1-2 oddly-armed models for looks only).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -731,7 +731,7 @@
         <categoryLink id="6c6a-6217-c378-319e" name="Warriors (Formation of 5)" hidden="false" targetId="a20b-aa4e-9045-9c20" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8d21-a0d0-f59f-8f8b" name="Weapon (choose 1)" hidden="false" defaultSelectionEntryId="9524-5d68-34e2-a98a">
+        <selectionEntryGroup id="8d21-a0d0-f59f-8f8b" name="Weapon (choose 1)" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d337-48cd-f813-0b48"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5546-77ad-4976-65d1"/>
@@ -778,7 +778,7 @@
           <characteristics>
             <characteristic name="Wounds" typeId="aea1-39b1-ec9b-475a">1</characteristic>
             <characteristic name="Skills" typeId="1200-2470-7a16-e426">0-2</characteristic>
-            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9"></characteristic>
+            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9">Formation of 5 models, 1 Wound each, Skills apply to the whole Formation. Combat hand = 1 card per surviving model (1-5). Armed with neither short nor long weapons (bows, javelins, slings etc.). Max 2 Units of Marksmen per warband unless a faction supplement says otherwise.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -822,7 +822,7 @@
           <characteristics>
             <characteristic name="Wounds" typeId="aea1-39b1-ec9b-475a">4</characteristic>
             <characteristic name="Skills" typeId="1200-2470-7a16-e426">0-3</characteristic>
-            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9"></characteristic>
+            <characteristic name="Notes" typeId="fb14-0b46-30b6-76a9">Optional rule; only 1 Shaman per warband. Armed with neither short nor long weapons. Always fights and moves alone. Combat hand = 1 card per remaining Wound. Free bonus: 1 free Veteran Skill for any 1 Unit (rulebook table; a paragraph elsewhere instead describes a free Elite Skill for 1 Unit, or 1 free Veteran Skill for each of 2 Units -- use whichever your group has agreed on).</characteristic>
           </characteristics>
         </profile>
       </profiles>

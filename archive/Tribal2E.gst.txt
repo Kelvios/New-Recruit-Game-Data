@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="3" battleScribeVersion="2.03" authorName="Kelvios. Unofficial fan-made data for TRIBAL 2nd Edition (rules by Mana Press). Contains no rules text." authorUrl="https://github.com/Kelvios/Drill-Sergeant" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-e140-121e-9b34-0be3" name="TRIBAL 2nd Edition" revision="2" battleScribeVersion="2.03" authorName="TRIBAL 2nd Edition rules by Mana Press. NR data authored privately for personal use." type="gameSystem">
   <costTypes>
     <costType id="2583-462d-9a3d-8b99" name="Honour" defaultValue="0"/>
   </costTypes>
@@ -32,20 +32,8 @@
         <categoryLink id="a62c-e2b5-4b3a-bbf8" name="Heroes" hidden="false" targetId="cdf2-4f60-5c31-a783" type="category">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fa53-eb38-a981-13d8"/>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="8864-7aeb-906c-22ef"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="8864-7aeb-906c-22ef"/>
           </constraints>
-          <modifiers>
-            <modifier type="increment" field="8864-7aeb-906c-22ef" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1" shared="true" includeChildSelections="false" includeChildForces="false" childId="a20b-aa4e-9045-9c20" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="8864-7aeb-906c-22ef" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef8f-b97c-ea97-503e" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </categoryLink>
         <categoryLink id="16c8-fa15-1885-674b" name="Warriors" hidden="false" targetId="a20b-aa4e-9045-9c20" type="category">
           <constraints>
