@@ -23,7 +23,7 @@ Revision 3. Revision 2 was tested in the New Recruit app. Revision 3's changes (
 
 ## Using them
 
-New Recruit reads a game system from the top of a repository, so you can add this one with **Add or remove games, Add from GitHub** and this repository's address. Or download `Tribal2E.gst` and `Tribal2E-Core.cat`, and open the `.gst` first and the `.cat` after it, in the New Recruit Editor or Builder.
+New Recruit reads a game system from the top of a repository, so you can add this one with **Add or remove games, Add from GitHub** and entering `Kelvios/Tribal-2nd-edition` as the repository (without `https://github.com/`). Or download `Tribal2E.gst` and `Tribal2E-Core.cat`, and open the `.gst` first and the `.cat` after it, in the New Recruit Editor or Builder.
 
 ## Removal
 
