@@ -14,7 +14,6 @@ If you don't own the game, please buy it. These files won't teach you how to pla
 
 - `Tribal2E.gst`: the game system (Honour as the cost, the five unit categories and the warband limits)
 - `Tribal2E-Core.cat`: the core catalogue (unit types, Skills and Historical Special Rules, with costs and short rule summaries)
-- `archive/`: earlier working files and test notes, kept for history only. Please don't load them.
 
 The core rules only. The Primeval and Brutal supplements are not included.
 
