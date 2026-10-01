@@ -25,6 +25,10 @@ Revision 3. Tested in the New Recruit app: the warband limits (including the Her
 
 New Recruit reads a game system from the top of a repository, so you can add this one with **Add or remove games, Add from GitHub** and entering `Kelvios/Tribal-2nd-edition` as the repository (without `https://github.com/`). Or download `Tribal2E.gst` and `Tribal2E-Core.cat`, and open the `.gst` first and the `.cat` after it, in the New Recruit Editor or Builder.
 
+## Updating
+
+When these files change, the `revision` number inside them goes up, so New Recruit offers the update from the same Add from GitHub entry. You don't need to remove and re-add the game system.
+
 ## Removal
 
 If you are a rights holder and want anything changed or removed, please open an issue and it will be actioned promptly.
