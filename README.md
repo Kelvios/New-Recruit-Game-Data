@@ -19,7 +19,7 @@ The core rules only. The Primeval and Brutal supplements are not included.
 
 ## Version
 
-Revision 3. Tested in the New Recruit app: the warband limits (including the Heroes limit that grows with each Formation), the roster caps on Counting Coup and Rally Around the Flag, weapon defaults, and Skill and Historical Rule choices all behaved as expected. Where a rule can't be expressed exactly in New Recruit, check it yourself against your rulebook.
+Revision 4. Revision 3 was tested in the New Recruit app, and revision 4 changes only the text of the Shaman's note (it now says the Shaman gets 1 free Veteran Skill, like a Hero), so it has not been tested again. The tests covered: the warband limits (including the Heroes limit that grows with each Formation), the roster caps on Counting Coup and Rally Around the Flag, weapon defaults, and Skill and Historical Rule choices all behaved as expected. Where a rule can't be expressed exactly in New Recruit, check it yourself against your rulebook.
 
 ## Using them
 
